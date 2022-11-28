@@ -16,7 +16,7 @@ def get_random_name():
 async def get_random_name_async():
     return await asyncio.to_thread(get_random_name)
 
-
+@pytest.mark.skip(reason="This is only a sample")
 @pytest.mark.asyncio
 async def test_sample_sync_async():
     tasks = []

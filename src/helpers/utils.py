@@ -1,5 +1,6 @@
-import toml
 import json
+
+import toml
 
 
 def read_data_file(filename: str, type: str) -> dict:
